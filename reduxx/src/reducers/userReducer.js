@@ -4,5 +4,4 @@ export default function userReducer(state = '', action) {
         case UPDATE_USER: return action.payload;
         default: return state;
     }
-
 };
